@@ -7,7 +7,7 @@ import numpy as np
 import torch
 import re
 import warnings
-from neucodec import NeuCodec, DistillNeuCodec
+from neucodec.neucodec import NeuCodec, DistillNeuCodec
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from .phonemizers import BasePhonemizer, CUSTOM_PHONEMIZERS
 
